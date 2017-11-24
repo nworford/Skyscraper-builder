@@ -1,0 +1,85 @@
+#background {
+	background-color:white;
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+
+h1 { 
+background-color:grey; }
+
+body {
+
+	background-color:orange;
+}
+
+#header {
+
+	width:300px;
+}
+
+#instructions {
+
+	background-color:yellow;
+	width: 400px;
+	height:400px;
+}
+
+#random-number {
+	background-color:green;
+	font-size:42px;
+	width:200px;
+	height:100px;
+}
+
+#wins {
+	background-color:grey;
+	width:100px;
+	height:100px;
+}
+
+#crystal-buttons {
+	
+	background-color:red;
+	width:200px;
+	height:100px;
+
+
+}
+#crystal-buttons img {
+	width:100px;
+	border:1px solid red;
+}
+#button-1 {
+	color:blue;
+	width:100px;
+	height:100px;
+}
+
+#button-2 {
+	color:blue;
+	width:100px;
+	height:100px;
+}
+
+#button-3 {
+	color:blue;
+	width:100px;
+	height:100px;
+}
+
+#button-4 {
+	color:blue;
+	width:100px;
+	height:100px;
+}
+
+
+
+
+#your-score {
+	background-color:blue;
+	width:200px;
+	height:100px;
+}
