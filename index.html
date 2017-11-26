@@ -4,7 +4,7 @@
 	<head>
 	  <meta charset="UTF-8">
 	  
-	  <title>Crystol Collector</title>
+	  <title>Skyscraper Builder!</title>
 	  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -17,47 +17,49 @@
 		<div id="background"> 
 
 			<div id="header">
-				<h1> Crystals Collector!</h1>
+				<h1> Skyscraper Builder! </h1>
 			</div>
 			<div id="instructions">
-					<p> * You will be given a random number at the start of the game. 
-					<p> * There are four crystals below. By clicking on a crystal, you will add a specific number of points to your total score. 
-					<p>	* You win the game by matching your score to the random number. You lose the game if your total score exceeds that number. 
-					<p> * The value of each crystal is unbeknownst to you until you click on it.
-					<p> * Each time you begin a new game, the number values of the crystals will change.
+					<p> * You will be given an order to build a skyscraper with a certain number of floors at the start of the game. 
+					<p> * There are four cranes below. By clicking on a crane, you will add a specific number of floors to your skyscraper. 
+					<p>	* You win the game by building your skyscraper with the exact number of floors ordered. You lose the game if the number of floors exceeds that number. 
+					<p> * The number of floors each crane builds is unbeknownst to you until you use it.
+					<p> * Each time you begin to build a new skyscraper, the number of floors each crane builds will change.
 				</p>
 			</div>
 			
 			<div>
-				<div id="random-number">
+
+				<div id="random-number"> 
+					<h3> Your building must be this many floors: </h3>
 				</div>
 
 				<div id="scoreboard">
-					<h4 id="wins"> Wins: </h4>
-					<h4 id="losses"> Losses: </h4>	
+					<h4 id="wins"> Completed skyscrapers: </h4>
+					<h4 id="losses"> Failed skyscrapers: </h4>	
 				</div>
 			</div>
 
 			<div id="crystal-buttons">
 				<div id="button-1"> 
-					<img src="./assets/images/crystal-one.jpg">
+					<img src="./assets/images/crane-1.jpg">
 				</div>
 
 				<div id="button-2">
-					<img src="./assets/images/crystal-two.jpg">
+					<img src="./assets/images/crane-2.jpg">
 				</div>
 
 				<div id="button-3">
-					<img src="./assets/images/crystal-three.jpg">
+					<img src="./assets/images/crane-3.jpg">
 				</div>
 
 				<div id="button-4">
-					<img src="./assets/images/crystal-four.jpg">
+					<img src="./assets/images/crane-4.jpg">
 				</div>
 			</div>
 
 			<div id="your-score">
-			<h4> Your score is: </h4>
+				<h4> Your building is currently has this many floors: </h4>
 			</div>
 
 		</div> <!-- background -->
