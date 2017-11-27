@@ -7,7 +7,10 @@
 }
 
 #background-image {
-	width:100%;
+	width:110%;
+	margin-top:-220px;
+	margin-left:-10px;
+	margin-right:-10px;
 	z-index: 0;
 	position:fill;
 }
