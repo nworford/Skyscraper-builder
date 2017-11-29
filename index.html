@@ -15,57 +15,57 @@
 
 	<body>
 		<img id="background-image" src="./assets/images/city.jpg">
-		
-		<div id="background"> 
-		
-
-			<div id="header">
-				<h1> Skyscraper Builder! </h1>
-			</div>
-			<div id="instructions">
-					<p> * You will be given an order to build a skyscraper with a certain number of floors at the start of the game. 
-					<p> * There are four cranes below. By clicking on a crane, you will add a specific number of floors to your skyscraper. 
-					<p>	* You win the game by building your skyscraper with the exact number of floors ordered. You lose the game if the number of floors exceeds that number. 
-					<p> * The number of floors each crane builds is unbeknownst to you until you use it.
-					<p> * Each time you begin to build a new skyscraper, the number of floors each crane builds will change.
-				</p>
-			</div>
+		<div id="container">
 			
-			<div>
+			<div id="background"> 
 
-				<div id="random-number"> 
-					<h3> Your building must be this many floors: </h3>
+
+				<div id="header">
+					<h1> Skyscraper Builder! </h1>
+				</div>
+				<div id="instructions">
+						<p> * You will be given an order to build a skyscraper with a certain number of floors at the start of the game. 
+						<p> * There are four cranes below. By clicking on a crane, you will add a specific number of floors to your skyscraper. 
+						<p>	* You win the game by building your skyscraper with the exact number of floors ordered. You lose the game if the number of floors exceeds that number. 
+						<p> * The number of floors each crane builds is unbeknownst to you until you use it.
+						<p> * Each time you begin to build a new skyscraper, the number of floors each crane builds will change.
+					</p>
+				</div>
+				
+				<div>
+
+					<div id="random-number"> 
+						<h3> Your building must be this many floors: <span id="your-random-target">RANDOM</span></h3>
+						<h4> Your building is currently has this many floors: <span id="your-score-points">0</span></h4>
+					</div>
+
+					<div id="scoreboard">
+						<h4 id="wins"> Completed skyscrapers: </h4>
+						<h4 id="losses"> Failed skyscrapers: </h4>	
+					</div>
 				</div>
 
-				<div id="scoreboard">
-					<h4 id="wins"> Completed skyscrapers: </h4>
-					<h4 id="losses"> Failed skyscrapers: </h4>	
+				<div id="crystal-buttons">
+					<div id="button-1" value="1"> 
+						<img src="./assets/images/crane-1.jpg">
+					</div>
+
+					<div id="button-2">
+						<img src="./assets/images/crane-2.jpg">
+					</div>
+
+					<div id="button-3">
+						<img src="./assets/images/crane-3.jpg">
+					</div>
+
+					<div id="button-4">
+						<img src="./assets/images/crane-4.jpg">
+					</div>
 				</div>
-			</div>
 
-			<div id="crystal-buttons">
-				<div id="button-1"> 
-					<img src="./assets/images/crane-1.jpg">
-				</div>
 
-				<div id="button-2">
-					<img src="./assets/images/crane-2.jpg">
-				</div>
-
-				<div id="button-3">
-					<img src="./assets/images/crane-3.jpg">
-				</div>
-
-				<div id="button-4">
-					<img src="./assets/images/crane-4.jpg">
-				</div>
-			</div>
-
-			<div id="your-score">
-				<h4> Your building is currently has this many floors: </h4>
-			</div>
-
-		</div> <!-- background -->
+			</div> <!-- background -->
+		</div>
 
 	</body>
 
