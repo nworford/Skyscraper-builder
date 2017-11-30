@@ -32,14 +32,73 @@ $(document).ready(function() {
 			points = points + button_points[button_num];
 			$("#your-score-points").html(points);
 		});
-	}
+	};
+
+//reset game
+var reset = {
+
+}
+
+
+// when button is clicked, add value to points
+
+$("#button-"+i).click(function(){
+
+$('#your-score-points') = $('#your-score-points') + button_points[i];
+
+$('#your-score-points').html(points);
+
+};
+
+
+var buildingFinished = false;
+var buildingFailed = false;
+
+if ($('#your-score-points') == $('#your-random-target')) { 
+
+	$('buildingFinished') = true;
+
+	console.log('You win!');
+
+	$('#wins').html();
+
+
+};
+
+if ($('#your-score-points') > $('#your-random-target')) { 
+
+	$('#buildingFailed') = true;
+
+	console.log('You lose!');
+
+	$('#losses')++;
+
+	$('#losses').html();
+
+};
+
+
+else () {
+
+	console.log('game is not over yet')
+};
+
+if ($('buildingFailed') == true) { 
+	reset()
+};
+
+if ($('buildingFinished') == true) { 
+	reset()
+};
+
+else () {
+	console.log('game is not over yet!');
+}
 
 });
 
 // $('button-1') $('button-2')  $('button-3')  $('button-4')
 
-// one button is always 1 or 2. Depending on if number is even or odd?
 
-//buttons are always the same % of total?
 
 

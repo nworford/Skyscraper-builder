@@ -1,7 +1,7 @@
 
 /* not 100% of visual space, but where all the wigits live */
 #container {
-	background-color: green;
+	
 	width: 800px; /* lock the width */
 	margin: auto; /* center the container on the screen */
 }
@@ -41,7 +41,7 @@ body {
 }
 
 #instructions {
-
+	
 	background-color:yellow;
 	margin:10px;
 	margin-bottom:5px;
