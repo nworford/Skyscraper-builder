@@ -40,6 +40,8 @@ body {
 	width:400px;
 }
 
+
+
 #instructions {
 	
 	background-color:yellow;
@@ -87,6 +89,16 @@ body {
 	font-size:15px;
 	vertical-align: top;
 
+}
+
+#message {
+
+	display:inline-block;
+	float:left;
+	margin:10px;
+	width:400px;
+	height:100px;
+	background-color:orange;
 }
 
 #crystal-buttons {
