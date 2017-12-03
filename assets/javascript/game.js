@@ -45,7 +45,7 @@ var checkGame = function() {
 		console.log('You win!');
 		wins++;
 
-		$('#lose_div').html("You completed the skyscraper!");
+		$('#message').html("You completed the skyscraper!");
 
 		setupGame();
 	}
@@ -54,13 +54,13 @@ var checkGame = function() {
 		console.log('You lose!');
 		losses++;
 
-		$('#lose_div').html("Your skyscraper failed!! ;-;");
+		$('#message').html("Your skyscraper failed!");
 
 		setupGame();
 	}
 	else {
 		console.log('game is not over yet')
-		$('#lose_div').html("Good Luck!");
+		$('#message').html("Good Luck!");
 	}
 }
 
